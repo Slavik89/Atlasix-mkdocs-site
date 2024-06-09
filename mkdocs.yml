@@ -1,3 +1,10 @@
-site_name: My Docs
+site_name: Atlasix
+
 theme: 
   name: material
+  logo: assets/images/atlasix_logo.jpg
+  palette:
+    primary: custom
+
+extra_css:
+  - stylesheets/extra.css
