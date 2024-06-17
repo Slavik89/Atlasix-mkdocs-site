@@ -1,5 +1,9 @@
 site_name: Atlasix
 
+# Repository
+repo_name: Slavik89/Atlasix-mkdocs-site
+repo_url: https://github.com/Slavik89/Atlasix-mkdocs-site
+
 theme: 
   name: material
   logo: assets/images/atlasix_logo.jpg
