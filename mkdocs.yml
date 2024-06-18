@@ -1,14 +1,16 @@
-site_name: Atlasix
+site_name: Atla
 
 # Repository
-repo_name: Slavik89/Atlasix-mkdocs-site
-repo_url: https://github.com/Slavik89/Atlasix-mkdocs-site
+#repo_name: Slavik89/Atlasix-mkdocs-site
+#repo_url: https://github.com/Slavik89/Atlasix-mkdocs-site
 
 theme: 
   name: material
   logo: assets/images/atlasix_logo.jpg
   palette:
     primary: custom
+  features:
+    #- navigation.expand
 
 extra_css:
   - stylesheets/extra.css

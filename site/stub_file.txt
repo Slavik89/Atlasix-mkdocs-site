@@ -1,2 +1,0 @@
-This is a stub file that helps to find the folder for site building and deployment.
-The site folder should be created.
