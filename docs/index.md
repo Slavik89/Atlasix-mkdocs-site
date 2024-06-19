@@ -1,13 +1,22 @@
-# Welcome to MkDocs
+# Homepage
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+## Code Annotation Examples
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+### Codeblocks
+
+Some `code` goes here.
+
+### Plain codeblock
+
+A plain codeblock:
+
+```
+Some code here
+def myfunction()
+// some comment
+```
 
 ## Project layout
 
@@ -15,3 +24,16 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files
+
+#### Code for a specific language
+
+Some more code with the `py` at the start:
+
+``` yaml
+theme:
+  features:
+    - content.code.annotate # (1)
+```
+
+1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
+    text__, images, ... basically anything that can be written in Markdown.

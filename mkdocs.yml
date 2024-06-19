@@ -1,4 +1,4 @@
-site_name: Atla
+site_name: ''
 
 # Repository
 #repo_name: Slavik89/Atlasix-mkdocs-site
@@ -11,6 +11,27 @@ theme:
     primary: custom
   features:
     #- navigation.expand
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
 
 extra_css:
   - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/james-willett
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/TheJamesWillett
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/willettjames/
+
+copyright: |
+  &copy; 2024 
