@@ -7,8 +7,31 @@ site_name: ''
 theme: 
   name: material
   logo: assets/images/atlasix_logo.jpg
+  
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+  
+
   palette:
-    primary: custom
+
+    - scheme: default
+      primary: custom
+      accent: deep orange
+      toggle: 
+        icon: material/weather-night
+        name: Switch to light mode
+
+    - scheme: slate
+      primary: blue
+      accent: deep orange
+      toggle: 
+        icon: material/weather-sunny
+        name: Switch to light mode
+
   features:
     #- navigation.expand
     - navigation.tabs
@@ -24,6 +47,14 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+nav:
+  - Home: index.md
+  - Knowledge base:
+    - 'Start here': page2.md
+    - 'End here': page3.md
+  - Markdown Extentions: 
+      - 'Admonitions': pages/markdown_extentions/admonitions.md
+
 extra:
   social:
     - icon: fontawesome/brands/github-alt
@@ -32,6 +63,27 @@ extra:
       link: https://twitter.com/TheJamesWillett
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/willettjames/
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # - toc:
+    # permalink: true
+
+
 
 copyright: |
   &copy; 2024 
