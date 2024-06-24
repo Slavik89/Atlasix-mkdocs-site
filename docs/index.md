@@ -4,32 +4,26 @@
 
 Some `code` goes here.
 
-### Plain codeblock
+### Code for python
 
-A plain codeblock:
+Some more code with the `py` at the start:
 
-```
+``` py
 Some code here
 def myfunction()
 // some comment
 ```
 
-## Project layout
+### Code for yaml
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files
-
-#### Code for a specific language
-
-Some more code with the `py` at the start:
+Some more code with the `yaml` at the start:
 
 ``` yaml
 theme:
   features:
     - content.code.annotate # (1)
 ```
+### Emoji
 
 1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
     text__, images, ... basically anything that can be written in Markdown.
