@@ -51,10 +51,10 @@ extra_css:
 nav:
   - Home: index.md
   - Setup:
-    - 'Start here': pages/setup/setup.md
+    - 'Start here': setup.md
     - 'End here': page3.md
   - Markdown Extentions: 
-      - 'Admonitions': pages/markdown_extentions/admonitions.md
+      - 'Admonitions': markdown_extentions.md
 
 extra:
   social:
