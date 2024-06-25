@@ -22,12 +22,12 @@ setting up site search, and more.
 
 </div>
 
-  [Language]: changing-the-language.md
-  [Navigation]: setting-up-navigation.md
-  [Header]: setting-up-the-header.md
-  [Footer]: setting-up-the-footer.md
-  [Search]: setting-up-site-search.md
-  [Tags]: setting-up-tags.md
+  [Language]: https://slavik89.github.io/Atlasix-mkdocs-site/
+  [Navigation]: https://slavik89.github.io/Atlasix-mkdocs-site/
+  [Header]: https://slavik89.github.io/Atlasix-mkdocs-site/
+  [Footer]: https://slavik89.github.io/Atlasix-mkdocs-site/
+  [Search]: https://slavik89.github.io/Atlasix-mkdocs-site/
+  [Tags]: https://slavik89.github.io/Atlasix-mkdocs-site/
 
 
 ## Appearance
@@ -45,10 +45,10 @@ configuration or alter the appearance.
 
 </div>
 
-  [Colors]: changing-the-colors.md
-  [Fonts]: changing-the-fonts.md
-  [Logo & Icons]: changing-the-logo-and-icons.md
-  [Social Cards]: setting-up-social-cards.md
+  [Colors]: https://slavik89.github.io/Atlasix-mkdocs-site/
+  [Fonts]: https://slavik89.github.io/Atlasix-mkdocs-site/
+  [Logo & Icons]: https://slavik89.github.io/Atlasix-mkdocs-site/
+  [Social Cards]: https://slavik89.github.io/Atlasix-mkdocs-site/
 
 ## Content
 
@@ -64,10 +64,10 @@ versioned documentation that matches your project's versioning methodology.
 
 </div>
 
-  [Blog]: setting-up-a-blog.md
-  [Comment System]: adding-a-comment-system.md
-  [Versioning]: setting-up-versioning.md
-  [Repository]: adding-a-git-repository.md
+  [Blog]: https://slavik89.github.io/Atlasix-mkdocs-site/
+  [Comment System]: https://slavik89.github.io/Atlasix-mkdocs-site/
+  [Versioning]: https://slavik89.github.io/Atlasix-mkdocs-site/
+  [Repository]: https://slavik89.github.io/Atlasix-mkdocs-site/
 
 ## Optimization
 
@@ -84,7 +84,7 @@ offline-capable.
 
 </div>
 
-  [Site analytics]: setting-up-site-analytics.md
-  [Optimized site]: building-an-optimized-site.md
-  [Data Privacy]: ensuring-data-privacy.md
-  [Offline usage]: building-for-offline-usage.md
+  [Site analytics]: https://slavik89.github.io/Atlasix-mkdocs-site/
+  [Optimized site]: https://slavik89.github.io/Atlasix-mkdocs-site/
+  [Data Privacy]: https://slavik89.github.io/Atlasix-mkdocs-site/
+  [Offline usage]: https://slavik89.github.io/Atlasix-mkdocs-site/

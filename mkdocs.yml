@@ -7,6 +7,7 @@ site_name: ''
 theme: 
   name: material
   logo: assets/images/atlasix_logo.jpg
+  custom_dir: overrides
   
   icon:
     admonition:
@@ -49,8 +50,8 @@ extra_css:
 
 nav:
   - Home: index.md
-  - Knowledge base:
-    - 'Start here': page2.md
+  - Setup:
+    - 'Start here': pages/setup/setup.md
     - 'End here': page3.md
   - Markdown Extentions: 
       - 'Admonitions': pages/markdown_extentions/admonitions.md
@@ -58,11 +59,11 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/james-willett
+      link: https://slavik89.github.io/Atlasix-mkdocs-site/
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/TheJamesWillett
+      link: https://slavik89.github.io/Atlasix-mkdocs-site/
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/willettjames/
+      link: https://slavik89.github.io/Atlasix-mkdocs-site/
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -77,6 +78,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
