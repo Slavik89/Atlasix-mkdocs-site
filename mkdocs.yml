@@ -62,8 +62,8 @@ nav:
         - tutorials/social/custom.md 
 
 
-  - Markdown Extentions: 
-      - 'Admonitions': markdown_extentions.md
+  - Markdown extensions: 
+      - 'Admonitions': markdown_extensions.md
 
 extra:
   social:
