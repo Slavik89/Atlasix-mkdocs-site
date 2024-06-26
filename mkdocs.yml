@@ -50,9 +50,18 @@ extra_css:
 
 nav:
   - Home: index.md
+  - Getting started: getting-started.md
   - Setup:
     - 'Start here': setup.md
-    - 'End here': page3.md
+  - Tutorials: 
+    - tutorials/index.md
+    - Blogs and Social cards:
+      - "Blogs":
+        - tutorials/blogs/basic.md
+      - "Social cards":
+        - tutorials/social/custom.md 
+
+
   - Markdown Extentions: 
       - 'Admonitions': markdown_extentions.md
 
